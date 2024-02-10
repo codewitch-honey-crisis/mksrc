@@ -2,7 +2,7 @@
 
 Extracts .c file paths and creates a makefile ready chunk of text for adding them to your make file.
 
-For example, if you want to include LVGL in a STM32CubeMX created project that uses a Makefile, normally you'd have to manually add each .c file to your sources in your makefile. If you go like `mksrc ".\CubeMX\TestDmaSpi\Drivers\lvgl\src" /prefix "Drivers/lvgl/src" It will produce this for LVGL 8.3:
+For example, if you want to include LVGL in a STM32CubeMX created project that uses a Makefile, normally you'd have to manually add each .c file to your sources in your makefile. If you go like `mksrc ".\CubeMX\TestDmaSpi\Drivers\lvgl\src" /prefix "Drivers/lvgl/src"` It will produce this for LVGL 8.3:
 ```
 Drivers/lvgl/src/core/lv_disp.c \
 Drivers/lvgl/src/core/lv_event.c \
